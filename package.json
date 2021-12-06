@@ -8,12 +8,8 @@
     "serve-favicon": "^2.5.0",
     "socket.io": "^2.4.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
   "scripts": {
     "start": "node app.js",
-    "watch": "nodemon --watch \"src/\" --exec \"node app.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
